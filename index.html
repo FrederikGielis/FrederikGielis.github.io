@@ -5,58 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="../node_modules/swup/dist/swup.min.js"></script>
-    <script defer src="../swup/swupScript.js"></script>
+    <script defer src="/node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="/swup/swupScript.js"></script>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>Index</title>
     <link rel="stylesheet" href="/dist/styles.css">
     <link rel="stylesheet" href="/swup/swupcss.css">
 </head>
 
-<body class="bg-black text-white">
-    <header class="font-bold text-gray-500 text-8xl mb-7">
-        <h1>
-            <div class="mx-10">
+<body class="bg-gradient-to-b from-black to-slate-800 text-white h-screen">
+    <header>
+        <h1 class="font-bold text-gray-500 text-8xl mb-7">
+            <div class="mx-5">
                 <a href="/index.html">Frederik Gielis</a>
                 <div class="text-4xl text-gray-700"> Tech enthousiast who happens to study just that</div>
             </div>
         </h1>
     </header>
-    <div class="grid grid-cols-9 gap-24" id="swup">
+    <div class="grid grid-cols-9 gap-24 relative" id="swup">
         <div class="col-span-2 -translate-x-6">
             <nav>
                 <!-- swup the ul too, but only on index -->
                 <ul>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/projects/rttf.html" class="mx-10">Race to the Future</a>
+                        <a href="/projects/rttf.html" class="mx-14">Race to the Future</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/projects/ai.html" class="mx-10">AI workshops and talks</a>
+                        <a href="/projects/ai.html" class="mx-14">AI workshops and talks</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/projects/cobot.html" class="mx-10">Minifig sorting cobot</a>
+                        <a href="/projects/cobot.html" class="mx-14">Minifig sorting cobot</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/projects/app.html" class="mx-10">App</a>
+                        <a href="/projects/app.html" class="mx-14">App</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/projects/wall.html" class="mx-10">Interactive wall</a>
+                        <a href="/projects/wall.html" class="mx-14">Interactive wall</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/projects/bkks.html" class="mx-10">BKKS Website</a>
+                        <a href="/projects/bkks.html" class="mx-14">BKKS Website</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div class="transition-fade col-span-6 bg-green-700">
-            <div>
-                Select a project!
+        <div class="transition-fade col-span-6 rounded-lg bg-slate-700">
+            <div class="p-5 text-l text-gray-200 text-lg">
+                <h2 class="text-3xl mb-4">
+                    Portfolio
+                </h2>
+                Hello, My name is Frederik. I am a second year student applied computer science at Thomas more. Click on
+                a project on the left to learn more about what I've been doing for the past two years.
             </div>
-            <div class="transition-bottom absolute right-0 bottom-0">
-                image placeholder
+            <div
+                class="transition-bottom absolute left-40 -bottom-16 rounded-lg bg-slate-500 content-evenly flex items-center">
+                <div class="p-5 hidden">
+                    <a href="https://flutter.dev/" target="_blank">
+                        <img src="/assets/logos/flutter.png" width="60" alt="css">
+                    </a>
+                </div>
+                <div class="p-5 hidden">
+                    <a href="https://dart.dev/">
+                        <img src="/assets/logos/dart.png" width="75" alt="Dart">
+                    </a>
+                </div>
             </div>
         </div>
+
     </div>
+
 </body>
 
 </html>
