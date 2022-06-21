@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="../../node_modules/swup/dist/swup.min.js"></script>
-    <script defer src="../../swup/swupScript.js"></script>
+    <script defer src="/node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="/swup/swupScript.js"></script>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>Index</title>
     <link rel="stylesheet" href="/dist/styles.css">
@@ -17,7 +17,7 @@
     <header>
         <h1 class="font-bold text-gray-500 text-8xl mb-7">
             <div class="mx-5">
-                <a href="/src/index.html">Frederik Gielis</a>
+                <a href="/index.html">Frederik Gielis</a>
                 <div class="text-4xl text-gray-700"> Tech enthousiast who happens to study just that</div>
             </div>
         </h1>
@@ -28,22 +28,22 @@
                 <!-- swup the ul too, but only on index -->
                 <ul>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/src/projects/rttf.html" class="mx-14">Race to the Future</a>
+                        <a href="/projects/rttf.html" class="mx-14">Race to the Future</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/src/projects/ai.html" class="mx-14">AI workshops and talks</a>
+                        <a href="/projects/ai.html" class="mx-14">AI workshops and talks</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/src/projects/cobot.html" class="mx-14">Minifig sorting cobot</a>
+                        <a href="/projects/cobot.html" class="mx-14">Minifig sorting cobot</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/src/projects/app.html" class="mx-14">App</a>
+                        <a href="/projects/app.html" class="mx-14">App</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/src/projects/wall.html" class="mx-14">Interactive wall</a>
+                        <a href="/projects/wall.html" class="mx-14">Interactive wall</a>
                     </li>
                     <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
-                        <a href="/src/projects/bkks.html" class="mx-14">BKKS Website</a>
+                        <a href="/projects/bkks.html" class="mx-14">BKKS Website</a>
                     </li>
                 </ul>
             </nav>
@@ -51,42 +51,27 @@
         <div class="transition-fade col-span-6 rounded-lg bg-slate-700">
             <div class="p-5 text-l text-gray-200 text-lg">
                 <h2 class="text-3xl mb-4">
-                    Minifig Sorting Cobot
+                    AI workshops and talks
                 </h2>
-                A cobot is a 'collaborative robot' which means it is safe to operate with people nearby. We showcased
-                ABB's single-arm YuMi cobot at the Bricks and More lego expo. Children (and adults too of course) could
-                assemble a minifigure that belonged to one of the scenes placed around the cobot. Using a webcam and an
-                AI model, we detected the type of minifigure. The cobot then picked up the figure and placed it near the
-                right scene (most of the time at least).
-                <div class="pt-3">
-                    <h3 class="my-1 text-xl font-bold">Made for</h3>
-                    <a href="https://bricks-and-more.be/" target="_blank">
-                        <p class="my-2 underline">Race To The Future</p>
-                        <img src="/src/assets/clients/bricksandmore.jpg" alt="logo bricks and more" width="150">
-                    </a>
-                </div>
+                I've given a few talks and workshops about ai. The workshops were given in a team of two, the talks I've
+                presented alone. Depending on the audience, the talks were adapted in how deep we dove into the inner
+                workings of artificial intelligence, machine learning, and deep learning.
                 <div>
-                    <h3 class="underline my-2 text-xl font-bold"><a href="#">poster</a></h3>
+                    <h3 class="underline my-2 text-xl font-bold"><a href="#">Poster</a></h3>
                 </div>
             </div>
+
             <div
                 class="transition-bottom absolute left-40 -bottom-16 rounded-lg bg-slate-500 content-evenly flex items-center">
-                <div class="p-5">
-                    <a href="https://www.python.org/" target="_blank">
-                        <img src="/src/assets/logos/python.png" width="75" alt="Python">
+                <div class="p-5 hidden">
+                    <a href="https://flutter.dev/" target="_blank">
+                        <img src="/src/assets/logos/flutter.png" width="60" alt="css">
                     </a>
                 </div>
-                <div class="p-1">
-                    <a href="https://www.raspberrypi.com/" target="_blank">
-                        <img src="/src/assets/logos/raspberrypi.png" width="100" alt="Python">
-                    </a>
-                </div>
-
-
             </div>
         </div>
         <div class="transition-bottom absolute right-10 -bottom-20">
-            <img class="rounded-lg" src="../assets/cobot.jpg" alt="image of the car" height="400" width="400">
+            <img class="rounded-lg" src="../assets/talk.png" alt="talk about ai" width="400">
         </div>
     </div>
 
