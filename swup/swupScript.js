@@ -1,5 +1,1 @@
-import SwupScriptsPlugin from '@swup/scripts-plugin';
-
-const swup = new Swup({
-    plugins: [new SwupScriptsPlugin()]
-});
+const swup = new Swup();
