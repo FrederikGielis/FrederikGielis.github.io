@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../../node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="../../swup/swupScript.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Index</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+    <link rel="stylesheet" href="/swup/swupcss.css">
+</head>
+
+<body class="bg-gradient-to-b from-black to-slate-800 text-white h-screen">
+    <header>
+        <h1 class="font-bold text-gray-500 text-8xl mb-7">
+            <div class="mx-5">
+                <a href="/src/index.html">Frederik Gielis</a>
+                <div class="text-4xl text-gray-700"> subtitle here
+                    maybe</div>
+            </div>
+        </h1>
+    </header>
+    <div class="grid grid-cols-9 gap-24 relative" id="swup">
+        <div class="col-span-2 -translate-x-6">
+            <nav>
+                <!-- swup the ul too, but only on index -->
+                <ul>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/rttf.html" class="mx-14">Race to the Future</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/ai.html" class="mx-14">AI workshops and talks</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/cobot.html" class="mx-14">Minifig sorting cobot</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/app.html" class="mx-14">App</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/wall.html" class="mx-14">Interactive wall</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/bkks.html" class="mx-14">BKKS Website</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="transition-fade col-span-6 rounded-lg bg-slate-700">
+            <div class="p-5 text-l text-gray-200 text-lg">
+                <h2 class="text-3xl mb-4">
+                    Interactive Wall
+                </h2>
+                We've painted a wall with paint that contains graphite. This made the paint conductive. Information
+                about Van roey is displayed depending on which section of the paint is touched. This work was a team
+                effort.
+                <div class="pt-3">
+                    <h3 class="my-1 text-xl font-bold">Made for</h3>
+                    <a href="https://www.vanroey.be/" target="_blank">
+                        <p class="my-2 underline">Vanroey.be</p>
+                        <img src="/src/assets/clients/vanroey.png" alt="logo vanroey.be" width="150">
+                    </a>
+                </div>
+                <div>
+                    <h3 class="underline my-2 text-xl font-bold"><a href="#">poster</a></h3>
+                </div>
+            </div>
+            <div class="transition-bottom absolute left-40 -bottom-16 rounded-lg bg-slate-500 content-evenly flex">
+                <div class="p-5">
+                    <a href="#/">
+                        <img src="/src/assets/logos/css.png" width="60" alt="css">
+                    </a>
+                </div>
+                <div class="p-5">
+                    <a href="#">
+                        <img src="/src/assets/logos/html.png" width="80" alt="html">
+                    </a>
+                </div>
+                <div class="p-1 align-middle">
+                    <a href="https://www.raspberrypi.com/" target="_blank">
+                        <img src="/src/assets/logos/raspberrypi.png" width="110" alt="raspberry pi">
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="transition-bottom absolute right-10 -bottom-20">
+            <img class="rounded-lg" src="../assets/wall.jpg" alt="image of the car" height="500" width="500">
+        </div>
+    </div>
+
+</body>
+
+</html>

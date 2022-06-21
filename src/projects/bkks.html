@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../../node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="../../swup/swupScript.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Index</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+    <link rel="stylesheet" href="/swup/swupcss.css">
+</head>
+
+<body class="bg-gradient-to-b from-black to-slate-800 text-white h-screen">
+    <header>
+        <h1 class="font-bold text-gray-500 text-8xl mb-7">
+            <div class="mx-5">
+                <a href="/src/index.html">Frederik Gielis</a>
+                <div class="text-4xl text-gray-700"> subtitle here
+                    maybe</div>
+            </div>
+        </h1>
+    </header>
+    <div class="grid grid-cols-9 gap-24 relative" id="swup">
+        <div class="col-span-2 -translate-x-6">
+            <nav>
+                <!-- swup the ul too, but only on index -->
+                <ul>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/rttf.html" class="mx-14">Race to the Future</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/ai.html" class="mx-14">AI workshops and talks</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/cobot.html" class="mx-14">Minifig sorting cobot</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/app.html" class="mx-14">App</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/wall.html" class="mx-14">Interactive wall</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/bkks.html" class="mx-14">BKKS Website</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="transition-fade col-span-6 rounded-lg bg-slate-700">
+            <div class="p-5 text-l text-gray-200 text-lg">
+                <h2 class="text-3xl mb-4">
+                    Website Belgisch Kinderkanker Steunfonds
+                </h2>
+                A weeklong hackathon yielded a new WordPress website for the Belgian Child Cancer Support fund. We
+                brought their online presence up to date and added some new functionalities as well.
+                <div class="pt-3">
+                    <h3 class="my-1 text-xl font-bold">Made for</h3>
+                    <a href="https://belgischkinderkankersteunfonds.be/" target="_blank">
+                        <p class="my-2 underline">Race To The Future</p>
+                        <img src="/src/assets/clients/bkksLogo.png" alt="logo bricks and more" width="150">
+                    </a>
+                </div>
+                <div>
+                    <h3 class="underline my-2 text-xl font-bold"><a href="#">Poster</a></h3>
+                </div>
+            </div>
+            <div
+                class="transition-bottom absolute left-40 -bottom-16 rounded-lg bg-slate-500 content-evenly flex items-center">
+                <div class="p-5">
+                    <a href="https://wordpress.com/" target="_blank">
+                        <img src="/src/assets/logos/wordpress.png" width="75" alt="Python">
+                    </a>
+                </div>
+                <div class="p-5">
+                    <a href="https://www.php.net/" target="_blank">
+                        <img src="/src/assets/logos/php.png" width="75" alt="PHP">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="transition-bottom absolute right-10 -bottom-20">
+            <img class="rounded-lg" src="../assets/bkks.png" alt="image of the car" height="500" width="500">
+        </div>
+    </div>
+
+</body>
+
+</html>

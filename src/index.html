@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="../swup/swupScript.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Index</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+    <link rel="stylesheet" href="/swup/swupcss.css">
+</head>
+
+<body class="bg-black text-white">
+    <header class="font-bold text-gray-500 text-8xl mb-7">
+        <h1>
+            <div class="mx-10">
+                <a href="/src/index.html">Frederik Gielis</a>
+            </div>
+        </h1>
+    </header>
+    <div class="grid grid-cols-9 gap-24" id="swup">
+        <div class="col-span-2 -translate-x-6">
+            <nav>
+                <!-- swup the ul too, but only on index -->
+                <ul>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/rttf.html" class="mx-10">Race to the Future</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/ai.html" class="mx-10">AI workshops and talks</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/cobot.html" class="mx-10">Minifig sorting cobot</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/app.html" class="mx-10">App</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/wall.html" class="mx-10">Interactive wall</a>
+                    </li>
+                    <li class="bg-slate-800 my-4 rounded-r-lg py-5 hover:shadow-sm hover:translate-x-5 hover:scale-105">
+                        <a href="/src/projects/bkks.html" class="mx-10">BKKS Website</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="transition-fade col-span-6 bg-green-700">
+            <div>
+                Select a project!
+            </div>
+            <div class="transition-bottom absolute right-0 bottom-0">
+                image placeholder
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
